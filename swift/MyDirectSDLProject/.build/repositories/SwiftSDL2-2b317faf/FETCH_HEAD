@@ -1,0 +1,61 @@
+df30583c88c8bb7bccaf8875f0ec4a39cb149fba	not-for-merge	branch 'master' of https://github.com/ctreffs/SwiftSDL2
+4bfd71cf3d1bb05372ff48321ae25d83cd207325	not-for-merge	branch 'renovate/actions-cache-4.x' of https://github.com/ctreffs/SwiftSDL2
+f60eda23238101ae9b826166268c02cf487a39e0	not-for-merge	branch 'renovate/actions-checkout-4.x' of https://github.com/ctreffs/SwiftSDL2
+d210208b6279b06fd3ac0df28ed3815052b8bc21	not-for-merge	branch 'renovate/actions-upload-artifact-4.x' of https://github.com/ctreffs/SwiftSDL2
+36ea2493c3ae91699c2fa375895ac0a69d149fe2	not-for-merge	branch 'renovate/compnerd-gha-setup-swift-0.x' of https://github.com/ctreffs/SwiftSDL2
+e195a79ba4103fa9fc36028374592928b1012cf1	not-for-merge	branch 'renovate/nicklockwood-swiftformat-0.x' of https://github.com/ctreffs/SwiftSDL2
+4bd47b659e604c137d51e633ba4090c3bcf33e0f	not-for-merge	branch 'renovate/realm-swiftlint-0.x' of https://github.com/ctreffs/SwiftSDL2
+1959559e8fd9bba81b8d5507c80f92d239ed1a29	not-for-merge	'refs/pull/1/head' of https://github.com/ctreffs/SwiftSDL2
+e4e39a46eb2cfcbaf61e793ec8230e41ba648c35	not-for-merge	'refs/pull/10/head' of https://github.com/ctreffs/SwiftSDL2
+edad7fef8fd1433e91cde09cfc3f7c7cd0870e7a	not-for-merge	'refs/pull/14/head' of https://github.com/ctreffs/SwiftSDL2
+78f019b4e360681994105a907a83a3d01ba0d833	not-for-merge	'refs/pull/15/head' of https://github.com/ctreffs/SwiftSDL2
+8be371b24f62819e385aeb35b0490f4ae98c0acb	not-for-merge	'refs/pull/16/head' of https://github.com/ctreffs/SwiftSDL2
+fb5d1902a8cb75b03cdbf4a54b9341ce07c82d1b	not-for-merge	'refs/pull/17/head' of https://github.com/ctreffs/SwiftSDL2
+332d96e127b68ecf9bb81280ef47d7fe73419acc	not-for-merge	'refs/pull/19/head' of https://github.com/ctreffs/SwiftSDL2
+eb16db00c30c5c15398404c64742830328609e96	not-for-merge	'refs/pull/2/head' of https://github.com/ctreffs/SwiftSDL2
+240acae014f06b963f6374e6a027a2e0a27097af	not-for-merge	'refs/pull/20/head' of https://github.com/ctreffs/SwiftSDL2
+ef3ea548316aecbe58ef72df2820619219287de0	not-for-merge	'refs/pull/22/head' of https://github.com/ctreffs/SwiftSDL2
+5e4e088813381397fca88f01f61654b8e94a0799	not-for-merge	'refs/pull/23/head' of https://github.com/ctreffs/SwiftSDL2
+4788da0111c82d4af1e132f7e64482c86d507551	not-for-merge	'refs/pull/24/head' of https://github.com/ctreffs/SwiftSDL2
+de8419ae5877380798ff6b04e4a588c6f966ad99	not-for-merge	'refs/pull/25/head' of https://github.com/ctreffs/SwiftSDL2
+4d8cc1b542418225648f0291ca459118517096cb	not-for-merge	'refs/pull/26/head' of https://github.com/ctreffs/SwiftSDL2
+76a8bd604b5a5af145190d8ed2688d6a54af61e8	not-for-merge	'refs/pull/27/head' of https://github.com/ctreffs/SwiftSDL2
+50278a2847596714fdf8d5e5a92f644059c356fc	not-for-merge	'refs/pull/28/head' of https://github.com/ctreffs/SwiftSDL2
+3afd68e330ff2ce82b3e3e810a8232dfea9bb4cf	not-for-merge	'refs/pull/29/head' of https://github.com/ctreffs/SwiftSDL2
+04dbb573febc67de5de31b1081feb8d277d3d949	not-for-merge	'refs/pull/3/head' of https://github.com/ctreffs/SwiftSDL2
+e118755d240da7d1391e37d08dafa076e9197ed7	not-for-merge	'refs/pull/30/head' of https://github.com/ctreffs/SwiftSDL2
+c65b77d1b1116a54f528fa8478bcf27237c20ccc	not-for-merge	'refs/pull/31/head' of https://github.com/ctreffs/SwiftSDL2
+769216f060177c017a7ed58c22d2255c9bb53dcf	not-for-merge	'refs/pull/32/head' of https://github.com/ctreffs/SwiftSDL2
+72c0dc9fd41c589cc6cef0bce6187ed78a09f05c	not-for-merge	'refs/pull/33/head' of https://github.com/ctreffs/SwiftSDL2
+f60eda23238101ae9b826166268c02cf487a39e0	not-for-merge	'refs/pull/34/head' of https://github.com/ctreffs/SwiftSDL2
+1dec17d31b6b39da0213777c5f9ea5981557dbe2	not-for-merge	'refs/pull/34/merge' of https://github.com/ctreffs/SwiftSDL2
+81763a3adc777056d6fa7ce65a2c1199906cd8f5	not-for-merge	'refs/pull/35/head' of https://github.com/ctreffs/SwiftSDL2
+b0f4ad103698dc0878dfe429693cc7e0f46d0d61	not-for-merge	'refs/pull/36/head' of https://github.com/ctreffs/SwiftSDL2
+600c3f91ee527ed6f4a49b46156178bc6b88bd7e	not-for-merge	'refs/pull/40/head' of https://github.com/ctreffs/SwiftSDL2
+4bfd71cf3d1bb05372ff48321ae25d83cd207325	not-for-merge	'refs/pull/41/head' of https://github.com/ctreffs/SwiftSDL2
+a7d912a80a768a6faaa6333b1fb525166d182fd8	not-for-merge	'refs/pull/41/merge' of https://github.com/ctreffs/SwiftSDL2
+56815b733c22f38a4f370d64bf27c8cb0a1daed8	not-for-merge	'refs/pull/42/head' of https://github.com/ctreffs/SwiftSDL2
+61888925b9bf6bec5a350efff7b5d959bf452255	not-for-merge	'refs/pull/43/head' of https://github.com/ctreffs/SwiftSDL2
+e082d844c320cb13991b3fccedc863e6f24255c9	not-for-merge	'refs/pull/44/head' of https://github.com/ctreffs/SwiftSDL2
+2a8d69fa379dbb5edb611065dcb5202e295929c5	not-for-merge	'refs/pull/45/head' of https://github.com/ctreffs/SwiftSDL2
+e195a79ba4103fa9fc36028374592928b1012cf1	not-for-merge	'refs/pull/46/head' of https://github.com/ctreffs/SwiftSDL2
+810db4812fb71ff531383e5410217816e3ccdb04	not-for-merge	'refs/pull/46/merge' of https://github.com/ctreffs/SwiftSDL2
+4bd47b659e604c137d51e633ba4090c3bcf33e0f	not-for-merge	'refs/pull/47/head' of https://github.com/ctreffs/SwiftSDL2
+34961749451173a1148e20dea39f26d9fdcdc926	not-for-merge	'refs/pull/47/merge' of https://github.com/ctreffs/SwiftSDL2
+36ea2493c3ae91699c2fa375895ac0a69d149fe2	not-for-merge	'refs/pull/48/head' of https://github.com/ctreffs/SwiftSDL2
+325498be1526646361699aa399dd093146f26f94	not-for-merge	'refs/pull/48/merge' of https://github.com/ctreffs/SwiftSDL2
+d210208b6279b06fd3ac0df28ed3815052b8bc21	not-for-merge	'refs/pull/49/head' of https://github.com/ctreffs/SwiftSDL2
+32043b9316892ecb6cc5f2cc424d77e4da89e193	not-for-merge	'refs/pull/49/merge' of https://github.com/ctreffs/SwiftSDL2
+ede0f006aee0df1ebee6bc4741323fbd2d93c068	not-for-merge	'refs/pull/5/head' of https://github.com/ctreffs/SwiftSDL2
+7bcba2944ccdbfb22186edcc3399f281aa2070c0	not-for-merge	'refs/pull/6/head' of https://github.com/ctreffs/SwiftSDL2
+5e0bfbcbedd90fc508dc84402e46094d54407f9d	not-for-merge	'refs/pull/7/head' of https://github.com/ctreffs/SwiftSDL2
+24ad7315584c41e3d897e732663e1b005890f66a	not-for-merge	'refs/pull/8/head' of https://github.com/ctreffs/SwiftSDL2
+cc046e1f97c5d5c843f3a2e494b584268f69af3f	not-for-merge	'refs/pull/9/head' of https://github.com/ctreffs/SwiftSDL2
+921b31b632287c3e808d02dc0dbabef9c63d5b65	not-for-merge	tag '1.0.0' of https://github.com/ctreffs/SwiftSDL2
+405586c94b7ff5695a0bf832058610293d036620	not-for-merge	tag '1.1.0' of https://github.com/ctreffs/SwiftSDL2
+886e6552f18240c2403fea2e66435e3bf82d3ef5	not-for-merge	tag '1.2.0' of https://github.com/ctreffs/SwiftSDL2
+23984cf96f20260413ef16721fe8b1f411f860a1	not-for-merge	tag '1.2.1' of https://github.com/ctreffs/SwiftSDL2
+dc30ee99e4fb5bb4272bfed2e6336d6bc48d8aba	not-for-merge	tag '1.3.1' of https://github.com/ctreffs/SwiftSDL2
+4f8f75880348c85db9289974fcbefcf3fce9d6fb	not-for-merge	tag '1.3.2' of https://github.com/ctreffs/SwiftSDL2
+2675295ab1daf1226c2cc6e470db4b3b4e696358	not-for-merge	tag '1.4.0' of https://github.com/ctreffs/SwiftSDL2
+30a2886bd68e43fc19ba29b63ffe230ac0e4db7a	not-for-merge	tag '1.4.1' of https://github.com/ctreffs/SwiftSDL2

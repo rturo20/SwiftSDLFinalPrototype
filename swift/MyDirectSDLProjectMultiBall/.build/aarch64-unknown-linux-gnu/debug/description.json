@@ -1,0 +1,360 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MySDLProject-aarch64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources",
+      "importPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/Ball.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MySDLProject",
+      "moduleOutputPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules/MySDLProject.swiftmodule",
+      "objects" : [
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/Ball.swift.o",
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "aarch64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/CSDL2/module.modulemap",
+        "-I/usr/include/SDL2",
+        "-module-cache-path",
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MySDLProject_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/Ball.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules/MySDLProject.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/Ball.swift",
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/main.swift"
+      ],
+      "tempsPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SDLWrapper-aarch64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources",
+      "importPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/SDLWrapper/SDLWrapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SDLWrapper",
+      "moduleOutputPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule",
+      "objects" : [
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "aarch64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/CSDL2/module.modulemap",
+        "-I/usr/include/SDL2",
+        "-module-cache-path",
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/SDLWrapper/SDLWrapper.swift"
+      ],
+      "tempsPath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MySDLProject" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "MySDLProject",
+      "-incremental",
+      "-c",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/Ball.swift",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/main.swift",
+      "-I",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "aarch64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/CSDL2/module.modulemap",
+      "-I/usr/include/SDL2",
+      "-module-cache-path",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MySDLProject_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "SDLWrapper" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "SDLWrapper",
+      "-incremental",
+      "-c",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/SDLWrapper/SDLWrapper.swift",
+      "-I",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "aarch64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/CSDL2/module.modulemap",
+      "-I/usr/include/SDL2",
+      "-module-cache-path",
+      "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MySDLProject" : [
+      "SDLWrapper",
+      "CSDL2"
+    ],
+    "SDLWrapper" : [
+      "CSDL2"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "writeCommands" : {
+    "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/Ball.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/main.swift"
+        }
+      ],
+      "outputFilePath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources"
+    },
+    "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/Ball.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/MySDLProject.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swiftmodule.o"
+        }
+      ],
+      "outputFilePath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.product/Objects.LinkFileList"
+    },
+    "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/SDLWrapper/SDLWrapper.swift"
+        }
+      ],
+      "outputFilePath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources"
+    },
+    "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/share/swift/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+    }
+  }
+}

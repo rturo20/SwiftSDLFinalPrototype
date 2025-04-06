@@ -1,0 +1,7 @@
+-lSDL2
+-lSDL2
+-lswiftSwiftOnoneSupport
+-lswiftCore
+-lswift_Concurrency
+-lswift_StringProcessing
+-lswift_RegexParser

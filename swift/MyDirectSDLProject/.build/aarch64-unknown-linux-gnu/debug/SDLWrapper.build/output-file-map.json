@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/master.swiftdeps"
+  },
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/SDLWrapper/SDLWrapper.swift": {
+    "dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.d",
+    "object": "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o",
+    "swiftmodule": "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swiftdeps"
+  }
+}

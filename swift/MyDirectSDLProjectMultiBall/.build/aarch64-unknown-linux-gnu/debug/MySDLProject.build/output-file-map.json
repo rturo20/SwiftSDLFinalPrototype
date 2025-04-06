@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/master.swiftdeps"
+  },
+  "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/Ball.swift": {
+    "dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/Ball.d",
+    "object": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/Ball.swift.o",
+    "swiftmodule": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/Ball~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/Ball.swiftdeps"
+  },
+  "/home/pi/Code/CursorAI/MyDirectSDLProject copy/Sources/MySDLProject/main.swift": {
+    "dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.d",
+    "object": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o",
+    "swiftmodule": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/pi/Code/CursorAI/MyDirectSDLProject copy/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swiftdeps"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swiftsdl2",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/ctreffs/SwiftSDL2.git",
+          "name" : "SDL"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "30a2886bd68e43fc19ba29b63ffe230ac0e4db7a",
+            "version" : "1.4.1"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SwiftSDL2"
+      }
+    ]
+  },
+  "version" : 6
+}

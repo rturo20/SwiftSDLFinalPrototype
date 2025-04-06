@@ -1,0 +1,105 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "MySDLProject-aarch64-unknown-linux-gnu-debug.exe": ["<MySDLProject-aarch64-unknown-linux-gnu-debug.exe>"]
+  "MySDLProject-aarch64-unknown-linux-gnu-debug.module": ["<MySDLProject-aarch64-unknown-linux-gnu-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "SDLWrapper-aarch64-unknown-linux-gnu-debug.module": ["<SDLWrapper-aarch64-unknown-linux-gnu-debug.module>"]
+  "main": ["<MySDLProject-aarch64-unknown-linux-gnu-debug.exe>","<MySDLProject-aarch64-unknown-linux-gnu-debug.module>","<SDLWrapper-aarch64-unknown-linux-gnu-debug.module>"]
+  "test": ["<MySDLProject-aarch64-unknown-linux-gnu-debug.exe>","<MySDLProject-aarch64-unknown-linux-gnu-debug.module>","<SDLWrapper-aarch64-unknown-linux-gnu-debug.module>"]
+default: "main"
+nodes:
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/CSDL2/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/MySDLProject/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/SDLWrapper/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/MySDLProject.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/MySDLProject.swiftmodule"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/MySDLProject.swiftmodule.o"]
+    description: "Wrapping AST for MySDLProject for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/MySDLProject.swiftmodule","-o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/MySDLProject.swiftmodule.o","-target","aarch64-unknown-linux-gnu"]
+
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/MySDLProject/main.swift"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources"]
+    description: "Write auxiliary file /home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources"
+
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/MySDLProject.swiftmodule.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swiftmodule.o"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.product/Objects.LinkFileList"
+
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swiftmodule.o"]
+    description: "Wrapping AST for SDLWrapper for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule","-o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swiftmodule.o","-target","aarch64-unknown-linux-gnu"]
+
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/SDLWrapper/SDLWrapper.swift"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources"]
+    description: "Write auxiliary file /home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources"
+
+  "/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/usr/share/swift/usr/bin/swiftc"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+
+  "<MySDLProject-aarch64-unknown-linux-gnu-debug.exe>":
+    tool: phony
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject"]
+    outputs: ["<MySDLProject-aarch64-unknown-linux-gnu-debug.exe>"]
+
+  "<MySDLProject-aarch64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/MySDLProject.swiftmodule"]
+    outputs: ["<MySDLProject-aarch64-unknown-linux-gnu-debug.module>"]
+
+  "<SDLWrapper-aarch64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule"]
+    outputs: ["<SDLWrapper-aarch64-unknown-linux-gnu-debug.module>"]
+
+  "C.MySDLProject-aarch64-unknown-linux-gnu-debug.exe":
+    tool: shell
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/MySDLProject.swiftmodule.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swiftmodule.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.product/Objects.LinkFileList"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject"]
+    description: "Linking ./.build/aarch64-unknown-linux-gnu/debug/MySDLProject"
+    args: ["/usr/share/swift/usr/bin/swiftc","-L/usr/lib/aarch64-linux-gnu","-lSDL2","-L","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug","-o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject","-module-name","MySDLProject","-emit-executable","-Xlinker","--defsym","-Xlinker","main=MySDLProject_main","-Xlinker","-rpath=$ORIGIN","@/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.product/Objects.LinkFileList","-target","aarch64-unknown-linux-gnu","-g"]
+
+  "C.MySDLProject-aarch64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/MySDLProject/main.swift","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/main.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/MySDLProject.swiftmodule"]
+    description: "Compiling Swift Module 'MySDLProject' (1 sources)"
+    args: ["/usr/share/swift/usr/bin/swiftc","-module-name","MySDLProject","-emit-dependencies","-emit-module","-emit-module-path","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/MySDLProject.swiftmodule","-output-file-map","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/output-file-map.json","-incremental","-c","@/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/MySDLProject.build/sources","-I","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules","-target","aarch64-unknown-linux-gnu","-enable-batch-mode","-index-store-path","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/CSDL2/module.modulemap","-I/usr/include/SDL2","-module-cache-path","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","MySDLProject_main","-color-diagnostics","-swift-version","5","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.SDLWrapper-aarch64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/SDLWrapper/SDLWrapper.swift","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources"]
+    outputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/SDLWrapper.swift.o","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule"]
+    description: "Compiling Swift Module 'SDLWrapper' (1 sources)"
+    args: ["/usr/share/swift/usr/bin/swiftc","-module-name","SDLWrapper","-emit-dependencies","-emit-module","-emit-module-path","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules/SDLWrapper.swiftmodule","-output-file-map","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/SDLWrapper.build/sources","-I","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/Modules","-target","aarch64-unknown-linux-gnu","-enable-batch-mode","-index-store-path","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/CSDL2/module.modulemap","-I/usr/include/SDL2","-module-cache-path","/home/pi/Code/CursorAI/MyDirectSDLProject/.build/aarch64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-swift-version","5","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/CSDL2/","/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/MySDLProject/","/home/pi/Code/CursorAI/MyDirectSDLProject/Sources/SDLWrapper/","/home/pi/Code/CursorAI/MyDirectSDLProject/Package.swift","/home/pi/Code/CursorAI/MyDirectSDLProject/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

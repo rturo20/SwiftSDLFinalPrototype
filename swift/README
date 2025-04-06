@@ -1,0 +1,6 @@
+This repository contains two swift OpenGL programmes
+
+- The first MyDirectSDL provides a simple graphics program that shows
+swift bridging the OPenGl swift library.
+- The second MyDirectSDLMultiBall builds on MyDirectSDL offering more 
+complex graphics.
